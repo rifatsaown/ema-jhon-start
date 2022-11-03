@@ -15,6 +15,10 @@ export default function Product(props:object) {
   return (
     <div className="product">
        <img src={img} alt="" />
+       <p>{name}</p>
+        <p>{seller}</p>
+        <p>{price}</p>
+        <p>{ratings}</p>
     </div>
   )
 }
